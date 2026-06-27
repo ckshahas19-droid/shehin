@@ -1,0 +1,140 @@
+import { Project, JournalEntry, ExplorationItem } from './types';
+
+export const projects: Project[] = [
+  {
+    id: 'stoneland',
+    title: 'STONELAND.',
+    category: 'Social Media Branding & Content',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop',
+    colSpan: 'col-span-12 md:col-span-7',
+    aspectRatio: 'aspect-[16/10]',
+  },
+  {
+    id: 'rajadhani',
+    title: 'RAJADHANI FURNITURE',
+    category: 'Content Strategy & Local Reach',
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop',
+    colSpan: 'col-span-12 md:col-span-5',
+    aspectRatio: 'aspect-[4/3] md:aspect-[16/13]',
+  },
+  {
+    id: 'dotty-southville',
+    title: 'DOTTY SOUTHVILLE',
+    category: 'Social Media & Bio Optimization',
+    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop',
+    colSpan: 'col-span-12 md:col-span-5',
+    aspectRatio: 'aspect-[4/3] md:aspect-[16/13]',
+  },
+  {
+    id: 'redcard',
+    title: 'REDCARD',
+    category: 'Shopify Store Design & Strategy',
+    image: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=1200&auto=format&fit=crop',
+    colSpan: 'col-span-12 md:col-span-7',
+    aspectRatio: 'aspect-[16/10]',
+  },
+  {
+    id: 'muzzamil',
+    title: 'MUZZAMIL.',
+    category: 'Web Design & UI/UX Development',
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop',
+    colSpan: 'col-span-12 md:col-span-7',
+    aspectRatio: 'aspect-[16/10]',
+  },
+  {
+    id: 'vascolands',
+    title: 'VASCOLANDS KENNEL',
+    category: 'Social Media Management & Content',
+    image: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=1200&auto=format&fit=crop',
+    colSpan: 'col-span-12 md:col-span-5',
+    aspectRatio: 'aspect-[4/3] md:aspect-[16/13]',
+  },
+  {
+    id: 'clayy-kids',
+    title: 'CLAYY KIDS COUTURE',
+    category: 'Kids Fashion SMM & Brand Identity',
+    image: 'https://images.unsplash.com/photo-1519457431-44ccd64a579b?q=80&w=1200&auto=format&fit=crop',
+    colSpan: 'col-span-12',
+    aspectRatio: 'aspect-[21/9] md:aspect-[21/9] aspect-[16/10]',
+  },
+];
+
+export const journalEntries: JournalEntry[] = [
+  {
+    id: 'j1',
+    title: 'The future of interactive real-time experiences',
+    category: 'Technology',
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=400&auto=format&fit=crop',
+    readTime: '5 min read',
+    date: 'June 24, 2026',
+  },
+  {
+    id: 'j2',
+    title: 'A study of brutalist typography in web layouts',
+    category: 'Design',
+    image: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=400&auto=format&fit=crop',
+    readTime: '4 min read',
+    date: 'June 18, 2026',
+  },
+  {
+    id: 'j3',
+    title: 'Unlocking cinematic motion design inside browser canvas',
+    category: 'Motion',
+    image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=400&auto=format&fit=crop',
+    readTime: '8 min read',
+    date: 'June 11, 2026',
+  },
+  {
+    id: 'j4',
+    title: 'Scaling brand equity through emotional marketing',
+    category: 'Strategy',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=400&auto=format&fit=crop',
+    readTime: '6 min read',
+    date: 'May 29, 2026',
+  },
+];
+
+export const explorations: ExplorationItem[] = [
+  {
+    id: 'exp1',
+    title: 'Dark Fluid Sculpture',
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop',
+    rotation: 'rotate-2 hover:rotate-0',
+    col: 1,
+  },
+  {
+    id: 'exp2',
+    title: 'Neon Glassmorphism Study',
+    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=600&auto=format&fit=crop',
+    rotation: '-rotate-3 hover:rotate-0',
+    col: 1,
+  },
+  {
+    id: 'exp3',
+    title: 'Brutalist Concrete Pillar',
+    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=600&auto=format&fit=crop',
+    rotation: 'rotate-1 hover:rotate-0',
+    col: 1,
+  },
+  {
+    id: 'exp4',
+    title: 'Monochrome Shadow Play',
+    image: 'https://images.unsplash.com/photo-1502239608882-93b729c6af43?q=80&w=600&auto=format&fit=crop',
+    rotation: '-rotate-2 hover:rotate-0',
+    col: 2,
+  },
+  {
+    id: 'exp5',
+    title: 'Retro Futuristic Grid',
+    image: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=600&auto=format&fit=crop',
+    rotation: 'rotate-3 hover:rotate-0',
+    col: 2,
+  },
+  {
+    id: 'exp6',
+    title: 'Kinetic Glass Wave',
+    image: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600&auto=format&fit=crop',
+    rotation: '-rotate-1 hover:rotate-0',
+    col: 2,
+  },
+];

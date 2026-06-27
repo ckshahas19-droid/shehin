@@ -1,0 +1,6 @@
+{
+  "name": "Shehin V - Portfolio",
+  "description": "A single-page premium dark portfolio landing page for Shehin V, designed with custom smooth scrolls, parallax visual galleries, HLS background videos, and modern animations using React, GSAP, and Framer Motion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
