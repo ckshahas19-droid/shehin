@@ -6,6 +6,7 @@ import HlsVideo from './components/HlsVideo';
 import SelectedWorks from './components/SelectedWorks';
 import Explorations from './components/Explorations';
 import Stats from './components/Stats';
+import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 const ROLES = ["Ads Expert", "Digital Marketer", "Content Strategist", "Scholar"];
@@ -218,6 +219,11 @@ export default function App() {
       {/* 7. Section 6: Stats */}
       {!isLoading && (
         <Stats />
+      )}
+
+      {/* Testimonials Section */}
+      {!isLoading && (
+        <Testimonials />
       )}
 
       {/* 8. Section 7: Contact / Footer */}
